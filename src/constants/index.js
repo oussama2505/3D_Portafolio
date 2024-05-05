@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  tesoreria,
+  bilbao,
+  MariFarma,
+  MusicPlayer,
+  VueSport,
   threejs,
+  ingeniero,
+  fsm,
 } from "../assets";
 
 export const navLinks = [
@@ -32,29 +32,29 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Mis Proyectos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Desarollador Frontend",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Metodologías ágiles",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Desarollador Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Diseñador gráfico",
     icon: creator,
   },
 ];
@@ -116,61 +116,61 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Proyecto Académico",
+    company_name: "Tesorería de Túnez",
+    icon: tesoreria,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2014 - Jun 2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Este proyecto consiste en el desarrollo de una aplicación de escritorio destinada a la gestión integral de impuestos para empresas.",
+      "la aplicación permitirá a las empresas calcular y gestionar diversos impuestos como el IVA, IRPF, impuestos locales y cualquier otra obligación tributaria.",
+      "La aplicación calculará impuestos, gestionará deudas fiscales y generará informes para la presentación de declaraciones fiscales al final del año.",
+      "Desarrollo de aplicación de escritorio en C#, HTML y CSS.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Estudios Preparatorios para Escuelas de Ingeniería",
+    company_name: "Faculdad de Sciencia :Túnez",
+    icon: ingeniero,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2009 - Jun 2012",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tres años de formación intensiva en matemáticas, ciencias físicas y conceptos básicos de ingeniería.",
+      "Adquisición de una sólida base en áreas como cálculo, álgebra, física y química.",
+      "Preparación para exámenes de ingreso a escuelas de ingeniería.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Licenciatura en Ciencias de la Computación",
+    company_name: "Faculdad de Sciencia :Túnez",
+    icon: fsm,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Programa de tres años enfocado en fundamentos teóricos y prácticos de la informática.",
+      "Amplia cobertura en áreas como programación, algoritmos, bases de datos y sistemas operativos.",
+      "Adquisición de habilidades en desarrollo de software, análisis de datos y solución de problemas computacionales.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Bootcamp de Desarrollo Fullstack",
+    company_name: "Peñascal Koop. Bilbao,España",
+    icon: bilbao,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2023 - Ahora",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Programa intensivo de formación en desarrollo web fullstack durante 7 meses",
+      "Dominio de tecnologías front-end como HTML5, CSS3, JavaScript, con experiencia en frameworks como VueJs y ReactJs.",
+      "Conocimiento sólido en diseño responsivo utilizando Tailwind CSS y experiencia en la creación de interfaces de usuario con Figma.",
+      "Familiaridad con herramientas de control de versiones como Git y habilidades en la creación de contenedores Docker para la implementación de aplicaciones.",
+      "Experiencia práctica en la aplicación de metodologías ágiles como Scrum y Kanban para la gestión eficiente de proyectos, basada en proyectos reales desarrollados durante el bootcamp.",
+      "Adquisición de habilidades para la resolución de problemas, toma de decisiones y manejo de situaciones bajo presión, aplicadas en el contexto de proyectos de desarrollo de software durante el bootcamp.",
     ],
   },
 ];
 
 const testimonials = [
-  {
+/*   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
@@ -193,72 +193,72 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }, */
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tienda Online",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Este proyecto es un sitio web llamado MariFarma, que proporciona información y acceso a varios productos relacionados con la salud y el bienestar. Ofrece categorías como Medicamentos, Cuidado Natural, Hierbas y Ortopedia. El sitio web ofrece funcionalidades como selección de idioma, búsqueda de productos y añadir productos a favoritos y al carrito de compras.",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: MariFarma,
+    source_code_link: "https://github.com/usertina/Marifarma.git",
   },
   {
-    name: "Job IT",
+    name: "Music Player",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Este proyecto es un reproductor de música simple construido utilizando JavaScript y la API de Web Audio (Usando métodos de Array: map(), filter(), find(), join(), sort(), indexOf())",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: MusicPlayer,
+    source_code_link: "https://github.com/oussama2505/MusicPlayer_JS_WebAudioAPI.git",
   },
   {
-    name: "Trip Guide",
+    name: "VueSport",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This website is created by students of the Peñascal F5 bootcamp for educational purposes. The entire project was developed in an estimated time of 2 weeks. The group was organized and worked with agile methodologies, organizing the group with its corresponding Scrum and Product Owner.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TailwindCss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "VueJs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: VueSport,
+    source_code_link: "https://github.com/oussama2505/vueSport.git",
   },
 ];
 

@@ -71,8 +71,9 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>
+Mi trabajo</p>
+        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +81,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+         Estos son algunos de los proyectos que he desarrollado durante mi participación en un bootcamp fullstack. Cada uno de ellos ejemplifica mis habilidades y experiencia en acción, mostrando cómo he aplicado mis conocimientos en situaciones del mundo real. Para cada proyecto, proporcionaré una breve descripción junto con enlaces a los repositorios de código y demostraciones en vivo. Estos proyectos son prueba de mi capacidad para abordar desafíos complejos, adaptarme a diversas tecnologías y gestionar proyectos de manera efectiva. ¡Estoy emocionado de compartir mi trabajo contigo!
         </motion.p>
       </div>
 

@@ -21,14 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import fsm from "./company/logoFSM.png";
+import bilbao from "./company/Bilbao.png"
+import tesoreria from "./company/Tresoria_Tunez_Logo.png"
+import ingeniero from "./company/logoIngeneria.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import MariFarma from "./Marifarma.png";
+import MusicPlayer from "./MusicPlayer.png";
+import VueSport from "./VueSport.png";
 
 export {
   logo,
@@ -52,11 +53,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bilbao,
+  tesoreria,
+  ingeniero,
+  fsm,
+  MariFarma,
+  MusicPlayer,
+  VueSport,
 };
