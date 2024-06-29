@@ -25,20 +25,17 @@ import {
   fsm,
 } from "../assets";
 
+
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Mis Proyectos",
-  },
-  {
-    id: "contact",
-    title: "Contacto",
-  },
+  { id: '', title: 'Home' },
+  { id: 'about', title: 'About' },
+  { id: 'experience', title: 'Experience' },
+  { id: 'tech', title: 'Tech' },
+  { id: 'works', title: 'Works' },
+  { id: 'feedbacks', title: 'Feedbacks' },
+  { id: 'contact', title: 'Contact' },
 ];
+
 
 const services = [
   {
