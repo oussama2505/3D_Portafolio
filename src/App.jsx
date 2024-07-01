@@ -1,12 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 const App = () => {
+  const { t } = useTranslation();
+
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
+          
         </div>
         <Routes>
           <Route path="/" element={<Hero />} />
@@ -20,12 +25,16 @@ const App = () => {
         <div className='relative z-0'>
           <StarsCanvas />
         </div>
+        <LanguageSwitcher />
       </div>
     </BrowserRouter>
+    
   );
 }
 
 const MainLayout = ({ section }) => {
+  const { t } = useTranslation();
+
   return (
     <div>
       {section === "about" && <About />}

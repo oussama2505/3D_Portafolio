@@ -1,0 +1,78 @@
+{
+    "navLinks": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "tech": "Tecnología",
+      "works": "Proyectos",
+      "feedbacks": "Comentarios",
+      "contact": "Contacto"
+    },
+    "services": {
+      "frontendDeveloper": "Desarrollador Frontend",
+      "agileMethodologies": "Metodologías ágiles",
+      "backendDeveloper": "Desarrollador Backend",
+      "graphicDesigner": "Diseñador gráfico"
+    },
+    "experiences": {
+      "academicProject": {
+        "title": "Proyecto Académico",
+        "company": "Tesorería de Túnez",
+        "date": "Sept 2014 - Jun 2015",
+        "points": [
+          "Este proyecto consiste en el desarrollo de una aplicación de escritorio destinada a la gestión integral de impuestos para empresas.",
+          "La aplicación permitirá a las empresas calcular y gestionar diversos impuestos como el IVA, IRPF, impuestos locales y cualquier otra obligación tributaria.",
+          "La aplicación calculará impuestos, gestionará deudas fiscales y generará informes para la presentación de declaraciones fiscales al final del año.",
+          "Desarrollo de aplicación de escritorio en C#, HTML y CSS."
+        ]
+      },
+      "preparatoryStudies": {
+        "title": "Estudios Preparatorios para Escuelas de Ingeniería",
+        "company": "Facultad de Ciencia: Túnez",
+        "date": "Sept 2009 - Jun 2012",
+        "points": [
+          "Tres años de formación intensiva en matemáticas, ciencias físicas y conceptos básicos de ingeniería.",
+          "Adquisición de una sólida base en áreas como cálculo, álgebra, física y química.",
+          "Preparación para exámenes de ingreso a escuelas de ingeniería."
+        ]
+      },
+      "bachelorDegree": {
+        "title": "Licenciatura en Ciencias de la Computación",
+        "company": "Facultad de Ciencia: Túnez",
+        "date": "Jan 2022 - Jan 2023",
+        "points": [
+          "Programa de tres años enfocado en fundamentos teóricos y prácticos de la informática.",
+          "Amplia cobertura en áreas como programación, algoritmos, bases de datos y sistemas operativos.",
+          "Adquisición de habilidades en desarrollo de software, análisis de datos y solución de problemas computacionales."
+        ]
+      },
+      "fullstackBootcamp": {
+        "title": "Bootcamp de Desarrollo Fullstack",
+        "company": "Peñascal Koop. Bilbao, España",
+        "date": "Nov 2023 - Ahora",
+        "points": [
+          "Programa intensivo de formación en desarrollo web fullstack durante 7 meses.",
+          "Dominio de tecnologías front-end como HTML5, CSS3, JavaScript, con experiencia en frameworks como VueJs y ReactJs.",
+          "Conocimiento sólido en diseño responsivo utilizando Tailwind CSS y experiencia en la creación de interfaces de usuario con Figma.",
+          "Familiaridad con herramientas de control de versiones como Git y habilidades en la creación de contenedores Docker para la implementación de aplicaciones.",
+          "Experiencia práctica en la aplicación de metodologías ágiles como Scrum y Kanban para la gestión eficiente de proyectos, basada en proyectos reales desarrollados durante el bootcamp.",
+          "Adquisición de habilidades para la resolución de problemas, toma de decisiones y manejo de situaciones bajo presión, aplicadas en el contexto de proyectos de desarrollo de software durante el bootcamp."
+        ]
+      }
+    },
+    "projects": {
+      "mariFarma": {
+        "name": "Tienda Online",
+        "description": "Este proyecto es un sitio web llamado MariFarma, que proporciona información y acceso a varios productos relacionados con la salud y el bienestar. Ofrece categorías como Medicamentos, Cuidado Natural, Hierbas y Ortopedia. El sitio web ofrece funcionalidades como selección de idioma, búsqueda de productos y añadir productos a favoritos y al carrito de compras."
+      },
+      "musicPlayer": {
+        "name": "Reproductor de Música",
+        "description": "Este proyecto es un reproductor de música simple construido utilizando JavaScript y la API de Web Audio (Usando métodos de Array: map(), filter(), find(), join(), sort(), indexOf())."
+      },
+      "vueSport": {
+        "name": "VueSport",
+        "description": "Este sitio web fue creado por estudiantes del bootcamp Peñascal F5 con fines educativos. Todo el proyecto se desarrolló en un tiempo estimado de 2 semanas. El grupo se organizó y trabajó con metodologías ágiles, organizando el grupo con su correspondiente Scrum y Product Owner."
+      }
+    }
+  }
+  

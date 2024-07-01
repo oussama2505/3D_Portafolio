@@ -1,0 +1,78 @@
+{
+    "navLinks": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "tech": "Tech",
+      "works": "Works",
+      "feedbacks": "Feedbacks",
+      "contact": "Contact"
+    },
+    "services": {
+      "frontendDeveloper": "Frontend Developer",
+      "agileMethodologies": "Agile Methodologies",
+      "backendDeveloper": "Backend Developer",
+      "graphicDesigner": "Graphic Designer"
+    },
+    "experiences": {
+      "academicProject": {
+        "title": "Academic Project",
+        "company": "Treasury of Tunisia",
+        "date": "Sept 2014 - Jun 2015",
+        "points": [
+          "This project involves developing a desktop application for comprehensive tax management for businesses.",
+          "The application will allow businesses to calculate and manage various taxes such as VAT, income tax, local taxes, and other tax obligations.",
+          "The application will calculate taxes, manage tax debts, and generate reports for annual tax returns.",
+          "Developed a desktop application in C#, HTML, and CSS."
+        ]
+      },
+      "preparatoryStudies": {
+        "title": "Preparatory Studies for Engineering Schools",
+        "company": "Faculty of Science: Tunisia",
+        "date": "Sept 2009 - Jun 2012",
+        "points": [
+          "Three years of intensive training in mathematics, physical sciences, and basic engineering concepts.",
+          "Acquired a solid foundation in areas such as calculus, algebra, physics, and chemistry.",
+          "Preparation for entrance exams to engineering schools."
+        ]
+      },
+      "bachelorDegree": {
+        "title": "Bachelor's Degree in Computer Science",
+        "company": "Faculty of Science: Tunisia",
+        "date": "Jan 2022 - Jan 2023",
+        "points": [
+          "Three-year program focused on theoretical and practical fundamentals of computer science.",
+          "Extensive coverage in areas such as programming, algorithms, databases, and operating systems.",
+          "Acquired skills in software development, data analysis, and problem-solving."
+        ]
+      },
+      "fullstackBootcamp": {
+        "title": "Fullstack Development Bootcamp",
+        "company": "Peñascal Koop. Bilbao, Spain",
+        "date": "Nov 2023 - Now",
+        "points": [
+          "Intensive 7-month web development training program.",
+          "Mastery of front-end technologies like HTML5, CSS3, JavaScript, with experience in frameworks like VueJs and ReactJs.",
+          "Solid understanding of responsive design using Tailwind CSS and experience in creating user interfaces with Figma.",
+          "Familiarity with version control tools like Git and skills in creating Docker containers for application deployment.",
+          "Practical experience applying agile methodologies like Scrum and Kanban for efficient project management, based on real projects developed during the bootcamp.",
+          "Acquired skills for problem-solving, decision-making, and handling pressure situations, applied in the context of software development projects during the bootcamp."
+        ]
+      }
+    },
+    "projects": {
+      "mariFarma": {
+        "name": "Online Store",
+        "description": "This project is a website called MariFarma, providing information and access to various health and wellness products. It offers categories such as Medications, Natural Care, Herbs, and Orthopedics. The website features functionalities like language selection, product search, and adding products to favorites and the shopping cart."
+      },
+      "musicPlayer": {
+        "name": "Music Player",
+        "description": "This project is a simple music player built using JavaScript and the Web Audio API (Using Array methods: map(), filter(), find(), join(), sort(), indexOf())."
+      },
+      "vueSport": {
+        "name": "VueSport",
+        "description": "This website was created by students of the Peñascal F5 bootcamp for educational purposes. The entire project was developed in an estimated time of 2 weeks. The group was organized and worked with agile methodologies, organizing the group with its corresponding Scrum and Product Owner."
+      }
+    }
+  }
+  
