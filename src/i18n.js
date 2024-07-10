@@ -1,21 +1,43 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import HttpApi from 'i18next-http-backend';
 
 i18n
-  .use(HttpApi)
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    supportedLngs: ['en', 'es'],
-    fallbackLng: 'en',
-    detection: {
-      order: ['querystring', 'cookie'],
-      caches: ['cookie'],
+    resources: {
+      en: {
+        translation: {
+          nav: {
+            home: 'Home',
+            about: 'About',
+            experience: 'Experience',
+            tech: 'Tech',
+            works: 'Works',
+            feedbacks: 'Feedbacks',
+            contact: 'Contact',
+          },
+          // Add more translations for other sections here
+        },
+      },
+      es: {
+        translation: {
+          nav: {
+            home: 'Inicio',
+            about: 'Acerca de',
+            experience: 'Experiencia',
+            tech: 'Tecnología',
+            works: 'Proyectos',
+            feedbacks: 'Comentarios',
+            contact: 'Contacto',
+          },
+          // Add more translations for other sections here
+        },
+      },
     },
-    backend: {
-      loadPath: 'src/locales/{{lng}}/translation.json',
+    lng: 'en',
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false,
     },
   });
 
