@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -68,12 +68,13 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const {t}=useTranslation();
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>
-Mi trabajo</p>
-        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
+{t("works.sectionSubText")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t("works.sectionHeadText")}</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -81,7 +82,7 @@ Mi trabajo</p>
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-         Estos son algunos de los proyectos que he desarrollado durante mi participación en un bootcamp fullstack. Cada uno de ellos ejemplifica mis habilidades y experiencia en acción, mostrando cómo he aplicado mis conocimientos en situaciones del mundo real. Para cada proyecto, proporcionaré una breve descripción junto con enlaces a los repositorios de código y demostraciones en vivo. Estos proyectos son prueba de mi capacidad para abordar desafíos complejos, adaptarme a diversas tecnologías y gestionar proyectos de manera efectiva. ¡Estoy emocionado de compartir mi trabajo contigo!
+        {t("works.description")}
         </motion.p>
       </div>
 

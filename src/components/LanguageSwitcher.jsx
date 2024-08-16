@@ -11,7 +11,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className='fixed bottom-0 left-0 '>
+    <div className='fixed bottom-0 right-0 p-4 flex flex-col items-center space-y-2'>
         <div className="flex justify-center items-center mt-4">
       <div className="mx-2">
         <button onClick={() => changeLanguage('en')} className="flex items-center p-2 border border-gray-300 rounded hover:bg-gray-200">

@@ -69,7 +69,7 @@
       }
     ]
   },
-  "projects": {
+"projects": {
     "mariFarma": {
       "name": "Tienda Online",
       "description": "Este proyecto es un sitio web llamado MariFarma, que proporciona información y acceso a diversos productos de salud y bienestar. Ofrece categorías como Medicamentos, Cuidado Natural, Hierbas y Ortopedia. El sitio web cuenta con funcionalidades como selección de idioma, búsqueda de productos y añadir productos a favoritos y al carrito de compras."
@@ -83,9 +83,33 @@
       "description": "Este sitio web fue creado por estudiantes del bootcamp Peñascal F5 con fines educativos. Todo el proyecto se desarrolló en un tiempo estimado de 2 semanas. El grupo se organizó y trabajó con metodologías ágiles, organizando el grupo con su correspondiente Scrum y Product Owner."
     }
   },
-  "about": {
+"about": {
     "intro": "Introducción",
     "overview": "Descripción General.",
     "whoami": "Soy un desarrollador de software con experiencia en TypeScript y JavaScript, y especializado en frameworks como React, Node.js y Three.js. Soy un aprendiz rápido y colaboro estrechamente con el equipo para crear soluciones eficientes, escalables y fáciles de usar que resuelvan problemas del mundo real."
+  },
+"works": {
+      "sectionSubText": "Mi trabajo",
+      "sectionHeadText": "Proyectos.",
+      "description": "Estos son algunos de los proyectos que he desarrollado durante mi participación en un bootcamp fullstack. Cada uno de ellos ejemplifica mis habilidades y experiencia en acción, mostrando cómo he aplicado mis conocimientos en situaciones del mundo real. Para cada proyecto, proporcionaré una breve descripción junto con enlaces a los repositorios de código y demostraciones en vivo. Estos proyectos son prueba de mi capacidad para abordar desafíos complejos, adaptarme a diversas tecnologías y gestionar proyectos de manera efectiva. ¡Estoy emocionado de compartir mi trabajo contigo!"
+  },
+"feedback":{
+  "sectionSubText":"Lo que dicen los demás",
+  "sectionHeadText":"Testimonios"
+},
+"contact": {
+    "subText": "Contáctame",
+    "headText": "Contacto.",
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "¿Cuál es tu nombre?",
+    "emailLabel": "Tu Correo",
+    "emailPlaceholder": "¿Cuál es tu correo?",
+    "messageLabel": "Tu Mensaje",
+    "messagePlaceholder": "¿Qué te gustaría decir?",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "Gracias. Me pondré en contacto contigo lo antes posible.",
+    "error": "¡Vaya, algo salió mal! Por favor, inténtalo de nuevo."
   }
+
 }
