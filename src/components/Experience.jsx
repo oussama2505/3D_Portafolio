@@ -6,7 +6,7 @@ import {
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
-
+import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -57,14 +57,23 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const { t } = useTranslation();
+  
+  // Fetch experiences as an array
+  const experiences = Array.isArray(t('experiences.jobs', { returnObjects: true }))
+    ? t('experiences.jobs', { returnObjects: true })
+    : [];
+
+  console.log(experiences); // Debugging
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-        Lo que he hecho hasta ahora
+          {t('experiences.sectionSubText')}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-        Experiencia.
+          {t('experiences.sectionHeadText')}
         </h2>
       </motion.div>
 
@@ -72,7 +81,7 @@ const Experience = () => {
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
-              key={`experience-${index}`}
+              key={`experiences-${index}`}
               experience={experience}
             />
           ))}

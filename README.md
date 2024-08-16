@@ -84,6 +84,17 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
+  ```bash
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+ (restart the terminal)
+
+  nvm install 2
+
+node -v # should print `v22.6.0`
+
+npm -v # should print `10.8.2`
+```
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
 **Cloning the Repository**

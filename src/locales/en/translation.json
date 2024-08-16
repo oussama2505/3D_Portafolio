@@ -1,12 +1,17 @@
 {
-    "navLinks": {
-      "home": "Home",
-      "about": "About",
-      "experience": "Experience",
-      "tech": "Tech",
-      "works": "Works",
-      "feedbacks": "Feedbacks",
-      "contact": "Contact"
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "tech": "Tech",
+    "works": "Works",
+    "feedbacks": "Feedbacks",
+    "contact": "Contact"
+  },
+    "hero": {
+      "greeting": "Hello, I'm",
+      "description1": "I develop 3D visualizations, User Interfaces, ",
+      "description2":"and web applications."
     },
     "services": {
       "frontendDeveloper": "Frontend Developer",
@@ -15,19 +20,22 @@
       "graphicDesigner": "Graphic Designer"
     },
     "experiences": {
-      "academicProject": {
-        "title": "Academic Project",
-        "company": "Treasury of Tunisia",
-        "date": "Sept 2014 - Jun 2015",
-        "points": [
-          "This project involves developing a desktop application for comprehensive tax management for businesses.",
-          "The application will allow businesses to calculate and manage various taxes such as VAT, income tax, local taxes, and other tax obligations.",
-          "The application will calculate taxes, manage tax debts, and generate reports for annual tax returns.",
-          "Developed a desktop application in C#, HTML, and CSS."
-        ]
-      },
-      "preparatoryStudies": {
-        "title": "Preparatory Studies for Engineering Schools",
+      "sectionSubText": "What I've done so far",
+      "sectionHeadText": "Experience",
+      "jobs": [
+        {
+          "title": "Academic Project",
+          "company_name": "Tunisian Treasury",
+          "date": "Sept 2014 - Jun 2015",
+          "points": [
+            "This project involves the development of a desktop application aimed at comprehensive tax management for businesses.",
+            "The application will allow businesses to calculate and manage various taxes such as VAT, income tax, local taxes, and any other tax obligations.",
+            "The application will calculate taxes, manage tax debts, and generate reports for tax returns at the end of the year.",
+            "Development of desktop application in C#, HTML, and CSS."
+          ]
+        },
+        {
+          "title": "Preparatory Studies for Engineering Schools",
         "company": "Faculty of Science: Tunisia",
         "date": "Sept 2009 - Jun 2012",
         "points": [
@@ -35,9 +43,9 @@
           "Acquired a solid foundation in areas such as calculus, algebra, physics, and chemistry.",
           "Preparation for entrance exams to engineering schools."
         ]
-      },
-      "bachelorDegree": {
-        "title": "Bachelor's Degree in Computer Science",
+        },
+        {
+          "title": "Bachelor's Degree in Computer Science",
         "company": "Faculty of Science: Tunisia",
         "date": "Jan 2022 - Jan 2023",
         "points": [
@@ -45,9 +53,9 @@
           "Extensive coverage in areas such as programming, algorithms, databases, and operating systems.",
           "Acquired skills in software development, data analysis, and problem-solving."
         ]
-      },
-      "fullstackBootcamp": {
-        "title": "Fullstack Development Bootcamp",
+        },
+        {
+          "title": "Fullstack Development Bootcamp",
         "company": "Peñascal Koop. Bilbao, Spain",
         "date": "Nov 2023 - Now",
         "points": [
@@ -58,9 +66,11 @@
           "Practical experience applying agile methodologies like Scrum and Kanban for efficient project management, based on real projects developed during the bootcamp.",
           "Acquired skills for problem-solving, decision-making, and handling pressure situations, applied in the context of software development projects during the bootcamp."
         ]
-      }
+        }
+        
+      ]
     },
-    "projects": {
+  "projects": {
       "mariFarma": {
         "name": "Online Store",
         "description": "This project is a website called MariFarma, providing information and access to various health and wellness products. It offers categories such as Medications, Natural Care, Herbs, and Orthopedics. The website features functionalities like language selection, product search, and adding products to favorites and the shopping cart."
@@ -73,6 +83,11 @@
         "name": "VueSport",
         "description": "This website was created by students of the Peñascal F5 bootcamp for educational purposes. The entire project was developed in an estimated time of 2 weeks. The group was organized and worked with agile methodologies, organizing the group with its corresponding Scrum and Product Owner."
       }
+    },
+    "about":{
+      "intro":"Introduction",
+      "overview":"Overview.",
+      "whoami":"I am a software developer with experience in TypeScript and JavaScript, and specialized in frameworks such as React, Node.js, and Three.js. I am a fast learner and collaborate closely with the team to create efficient, scalable, and user-friendly solutions that solve real-world problems."
     }
-  }
+}
   

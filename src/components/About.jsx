@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { t } from "i18next";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -39,15 +40,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduccion</p>
-        <h2 className={styles.sectionHeadText}>Vision General.</h2>
+        <p className={styles.sectionSubText}>{t('about.intro')}</p>
+        <h2 className={styles.sectionHeadText}>{t('about.overview')}</h2>
       </motion.div>
-
+      {t('about.whoami')}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Soy un desarrollador de software con experiencia en TypeScript y JavaScript, y especializado en frameworks como React, Node.js y Three.js. Soy un aprendiz rápido y colaboro estrechamente con el equipo para crear soluciones eficientes, escalables y amigables para el usuario que resuelvan problemas del mundo real. 
+      
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
