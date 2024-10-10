@@ -2,28 +2,34 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import MiImagen from "./canvas/MiImagen";
 
 const Hero = () => {
-  const {t}=useTranslation();
-  console.log(t('hero.greeting'));
+  const { t } = useTranslation();
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="relative flex-1">
           <h1 className={`${styles.heroHeadText} text-white`}>
-           {t("hero.greeting")} <span className='text-[#915EFF]'>Oussama</span>
+            {t("hero.greeting")} <span className='text-[#915EFF]'>Oussama</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          {t("hero.description1")}<br className='sm:block hidden' />
-          {t("hero.description2")}
+            {t("hero.description1")}<br className='sm:block hidden' />
+            {t("hero.description2")}
           </p>
+          
+          {/* Imagen posicionada con z-index alto */}
+          <div className="absolute right-10 top-[50%] transform -translate-y-1/2 z-10">
+            <MiImagen />
+          </div>
         </div>
       </div>
 

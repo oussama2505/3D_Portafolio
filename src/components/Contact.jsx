@@ -30,26 +30,27 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    setLoading(true); // Muestra un estado de "cargando" mientras se envía el correo.
   
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, // Service ID desde tu .env
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, // Template ID desde tu .env
         {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "oussama.brahmi0608@gmail.com",
-          message: form.message,
+          from_name: form.name, // Nombre del remitente desde el formulario
+          to_name: "Tu Nombre o Empresa", // El destinatario, que serás tú
+          from_email: form.email, // Correo del remitente desde el formulario
+          to_email: "tuemail@ejemplo.com", // Aquí pones tu correo de destino donde recibes el mensaje
+          message: form.message, // El mensaje del remitente desde el formulario
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY // Clave pública desde tu .env
       )
       .then(
         () => {
-          setLoading(false);
-          alert(t('contact.success'));
+          setLoading(false); // Deja de mostrar el estado de "cargando"
+          alert(t('contact.success')); // Muestra una alerta de éxito
   
+          // Limpia el formulario después de enviarlo
           setForm({
             name: "",
             email: "",
@@ -57,13 +58,15 @@ const Contact = () => {
           });
         },
         (error) => {
-          setLoading(false);
-          console.error(error);
+          setLoading(false); // Deja de mostrar el estado de "cargando"
+          console.error(error); // Muestra el error en la consola
   
-          alert(t('contact.error'));
+          alert(t('contact.error')); // Muestra una alerta de error
         }
       );
   };
+
+  
 
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">

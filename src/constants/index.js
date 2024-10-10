@@ -23,6 +23,7 @@ import {
   threejs,
   ingeniero,
   fsm,
+  Izarza,
 } from "../assets";
 
 
@@ -256,6 +257,27 @@ const projects = [
     ],
     image: VueSport,
     source_code_link: "https://github.com/oussama2505/vueSport.git",
+  },
+  {
+    name: "Restaurante Izarza",
+    description:
+      "This website is created by students of the Peñascal F5 bootcamp for educational purposes. The entire project was developed in an estimated time of 2 weeks. The group was organized and worked with agile methodologies, organizing the group with its corresponding Scrum and Product Owner.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Izarza,
+    source_code_link: "https://github.com/oussama2505/3D_Portafolio",
   },
 ];
 

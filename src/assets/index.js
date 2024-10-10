@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import fsm from "./company/logoFSM.png";
+import fsm from "../assets/company/logoFSM.png";
 import bilbao from "./company/Bilbao.png"
 import tesoreria from "./company/Tresoria_Tunez_Logo.png"
 import ingeniero from "./company/logoIngeneria.png";
@@ -30,6 +30,8 @@ import ingeniero from "./company/logoIngeneria.png";
 import MariFarma from "./Marifarma.png";
 import MusicPlayer from "./MusicPlayer.png";
 import VueSport from "./VueSport.png";
+import Izarza from "./restaurante_Izarza.png" 
+import miImagen from "../assets/miImagen.png";
 
 export {
   logo,
@@ -60,4 +62,6 @@ export {
   MariFarma,
   MusicPlayer,
   VueSport,
+  Izarza,
+  miImagen
 };
